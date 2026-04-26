@@ -1,0 +1,23 @@
+APP_NAME=Plotagem Moldes PHP
+APP_ENV=local
+APP_DEBUG=true
+APP_URL=http://localhost:8080
+MP_SSL_VERIFY=false
+APP_KEY=plotagem_robusto_2026_alisson_91x7_k2m8
+DB_DRIVER=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=bb
+DB_USERNAME=root
+DB_PASSWORD=
+UPLOADS_DIR=storage/uploads
+MAIL_DRIVER=smtp
+MAIL_HOST=smtp.gmail.com
+MAIL_PORT=587
+MAIL_ENCRYPTION=tls
+MAIL_FROM_NAME=Alisson Projetos
+MAIL_FROM=alissonprojetostaco@gmail.com
+PAYMENT_DRIVER=mock
+
+MAIL_USER=alissonprojetostaco@gmail.com
+MAIL_PASS=pkcl subv ftkq xptj

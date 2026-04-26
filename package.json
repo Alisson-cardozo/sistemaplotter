@@ -1,0 +1,35 @@
+{
+  "name": "plotagem-moldes-baloes",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-runner.mjs",
+    "dev:web": "vite",
+    "dev:php": "php -S localhost:8080 -t saas_php_robusto/public",
+    "dev:mail": "node --watch server/index.mjs",
+    "build": "tsc -b && vite build",
+    "build:hostinger": "npm run build && node scripts/prepare-hostinger.mjs",
+    "preview": "vite preview",
+    "start": "node server/index.mjs",
+    "start:mail": "node server/index.mjs"
+  },
+  "engines": {
+    "node": ">=18.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mysql2": "^3.20.0",
+    "nodemailer": "^6.10.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}
